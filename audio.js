@@ -5,14 +5,14 @@ function toStart() {
 };
 
 function toMain() {
-    audio.currentTime=47;
+    audio.currentTime=5;
 };
 
 function toTheme() {
-    audio.currentTime=568;
+    audio.currentTime=10;
 };
 
 
 function toEnd() {
-    audio.currentTime=1205;
+    audio.currentTime=15;
 };

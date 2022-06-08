@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="de">
-    <!-- ====== Die Metadaten für diese Seite ====== -->
+    <!-- Head Bereich -->
     <head>
         <meta charset="utf-8" />
         <title>Startseite</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="layout.css" />
-        <link rel="stylesheet" href="responsive.css">
         
-        <link rel="icon" type="image/x-icon" href="Bilder/Logo.png">
+        <link rel="icon" type="image/x-icon" href="Pictures/Logo.png">
     </head>
 
-    <!-- ====== Der Körper der Seite ====== -->
+    <!-- Hauptbereich der Seite -->
     <body>
-        <!-- ==== Hier beginnt der Header ==== -->
+        <!-- Banner -->
         <header role="banner">
             <div class="header-container">
-                <!-- == Das Logo == -->
                 <a href="index.html" class="logo">
-                    <img src="Bilder/Logo.png" alt="Podcast Bros">
+                    <img src="Pictures/Logo.png" alt="Podcast Bros">
                 </a>
-                <!-- == Der Seitentitel == -->
                 <h1 class="page-title">Startseite</h1>
-                <!-- == Suchleiste == -->
                 <input type="text" placeholder="&#128269; Büchersuche..." id="searchbar-input" onkeyup="filterFunction()">
                 <ul id="searchbar-results">
                     <a href="folge-xxx-xxx.html" class="searchbar-item">#176: Harry Potter 1<br></a>
@@ -45,62 +41,59 @@
             </div>
         </header>
 
-        <!-- ==== Hier beginnt der Hauptteil ==== -->
+        <!-- Hauptteil -->
         <main role="main">
-            <!-- == Neuste Episode == -->
             <section id="newest-episode">
                 <h2 id="neuste-folge">Neuste Folge:</h2>
                 <a href="folge-187-maze-runner-1.html" class="newest-link">
                     <div class="neuste-folge-container">
-                        <img src="Bilder/cover_maze_runner_1.png" alt="Buchcover" id="newest-cover">
+                        <img src="Pictures/cover_maze_runner_1.png" alt="Buchcover" id="newest-cover">
                         <p id="newest-info">
                             Folge: #187 <br>
                             Buchtitel: Maze Runner - Die Auserwählten im Labyrinth <br>
                             Autor: James Dashner <br>
                             Seitenzahl: 490 Seiten <br>
                             Thema: Wirklichkeit und Realität <br>
-                            Bewertung: &#11088;7,75
+                            Bewertung: &#11088;7,25/10
                         </p>
                     </div>
                 </a>
             </section>
-            <!-- == Wir == -->
             <section id="we">
                 <h2 id="wir">Wir:</h2>
                 <p>
                     Hallo Ihr Leseratten. <br>
-                    Wir sind das Podcast Duo "Podcast Bros" bestehend aus uns (Felix und Markus).
+                    Wir sind das Podcast Duo "Podcast Bros".
                     Wir präsentieren euch wöchentlich ein neues Buch, passend zu den von euch gewählten Monatsthemen, und besprechen dieses dann Ausführlich.
                     Wir freuen uns über jeden einzelnen Hörer und bedanken uns bei Euch für Eure massive Unterstützung 😄. <br>
                     So. Jetzt aber genug über uns, denn ich bin mir sicher, Ihr seid eigentlich wegen unserer neuseten Folge hier 😉.
                 </p>
             </section>
-            <!-- == Alte Folgen == -->
             <section id="old-episodes">
                 <h2 id="alte-folgen">Alte Folgen:</h2>
                 <div class="alte-folgen-container">
                     <a href="folge-xxx-xxx.html">
-                        <img src="Bilder/cover_cryptos.png" alt="Buchcover">
+                        <img src="Pictures/cover_cryptos.png" alt="Buchcover">
                         <p>#186: Cryptos (Ursula Poznanski)</p>
                     </a>
                     <a href="folge-xxx-xxx.html">
-                        <img src="Bilder/cover_erebos_2.png" alt="Buchcover">
+                        <img src="Pictures/cover_erebos_2.png" alt="Buchcover">
                         <p>#185: Erebos 2 (Ursula Poznanski)</p>
                     </a>
                     <a href="folge-xxx-xxx.html">
-                        <img src="Bilder/cover_erebos_1.png" alt="Buchcover">
+                        <img src="Pictures/cover_erebos_1.png" alt="Buchcover">
                         <p>#184: Erebos 1 (Ursula Poznanski)</p>
                     </a>
                     <a href="folge-xxx-xxx.html">
-                        <img src="Bilder/cover_elanus.png" alt="Buchcover">
+                        <img src="Pictures/cover_elanus.png" alt="Buchcover">
                         <p>#183: Elanus (Ursula Poznanski)</p>
                     </a>
                     <a href="folge-xxx-xxx.html">
-                        <img src="Bilder/cover_harry_potter_7.png" alt="Buchcover">
+                        <img src="Pictures/cover_harry_potter_7.png" alt="Buchcover">
                         <p>#182: Harry Potter und die Heiligtümer des Todes (J. K. Rowling)</p>
                     </a>
                     <a href="folge-xxx-xxx.html">
-                        <img src="Bilder/cover_harry_potter_6.png" alt="Buchcover">
+                        <img src="Pictures/cover_harry_potter_6.png" alt="Buchcover">
                         <p>#181: Harry Potter und der Halbblutprinz (J. K. Rowling)</p>
                     </a>
                 </div>
@@ -109,7 +102,7 @@
             <p></p>
         </main>
 
-        <!-- ==== Hier beginnt der Fußbereich ==== -->
+        <!-- Fußbereich -->
         <footer>
             <div class="footer-container">
                 <a href="index.html" class="footer-to-startpage">Startseite</a>
