@@ -59,16 +59,17 @@
                     </div>
                 </a>
             </section>
+            <script src="audio.js"></script>
             <section id="audiostream">
                 <audio controls id="audio-stream">
                     <source src="Audio/audio.mp3" type="audio/mpeg">
                     Dein Browser unterstützt keine Audiowiedergabe.
                 </audio>
                 <div id="buttons">
-                    <button class="sprungknopf" onclick="">Intro</button>
-                    <button class="sprungknopf" onclick="">Buchinhalt</button>
-                    <button class="sprungknopf" onclick="">Themengespräch</button>
-                    <button class="sprungknopf" onclick="">Schluss</button>
+                    <button class="sprungknopf" onclick="toStart()">Intro</button>
+                    <button class="sprungknopf" onclick="toMain()">Buchinhalt</button>
+                    <button class="sprungknopf" onclick="toTheme()">Themengespräch</button>
+                    <button class="sprungknopf" onclick="toEnd()">Schluss</button>
                 </div>
                 <h2>Zusammenfassung:</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, non atque animi nam nemo quaerat veritatis vero excepturi architecto. Pariatur ducimus nihil rem porro architecto. Obcaecati, accusantium temporibus! Ea, nemo?</p>
